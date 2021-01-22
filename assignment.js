@@ -3,7 +3,7 @@
 // kilometer to meter convert funtion
 
 function kilometerToMeter(value) {
-	if (value>0){
+	if (value>=0){
 
 		value = value*1000
 	    return value
