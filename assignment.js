@@ -1,6 +1,6 @@
 //1st problem
 
-// kilometer to meter convert funtion
+// kilometer to meter convert function
 
 function kilometerToMeter(value) {
 	if (value>=0){
