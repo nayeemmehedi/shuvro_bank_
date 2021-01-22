@@ -32,7 +32,7 @@ function budgetCalculator(ghori = 0,phone = 0,laptop = 0){
 	 	  return 'Give positive value..Thank u'
 	   }
     }
-    console.log(budgetCalculator(0,0,0))
+   
 //2nd problem finish
 
 //3rd problem start
