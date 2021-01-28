@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="boostrap_js_file/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class ="container shuvro">
+     <h1 class="font-weight-bold"> Shuvro Bank Bangladesh</h1>
+    </div>
+
+
+    <div id="boom" class="container box-fit">
+        <h1>Welcome to Our bank </h1>
+        <div>
+
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Something@gmail.com">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+
+            <button id="login" type="submit" class="btn btn-primary">Submit</button>
+
+
+        </div>
+
+    </div>
+
+
+    
+
+    <!-- finish authontication box -->
+
+
+
+
+    <div id="transaction_area">
+        <div class="container overflow-hidden">
+            <div class="row gy-5">
+              <div class="col-4 ">
+                <div class="p-3 border first_box">
+                    <h2>Deposit</h2>
+                    <h3>$ <span id ="current_deposit">00</span></h3>
+
+
+
+
+                </div>
+              </div>
+              <div class="col-4 ">
+                <div class="p-3 border second_box">
+
+                    <h2>Withdraw</h2>
+                    <h3>$ <span id = "current_withdraw">00</span> </h3>
+
+                </div>
+              </div>
+              <div class="col-4 ">
+                <div class="p-3 border third_box">
+                    <h2>Balance</h2>
+                    <h3>$ <span id="current_balance">00</span></h3>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+
+
+
+          <!-- withdraw and deposit  -->
+
+          <div class="container overflow-hidden" id="withdraw"> 
+            <div class="row gy-5">
+              <div class="col-6 ">
+                <div class="p-3 border down_box_1
+                
+                "><h2>Deposit</h2> <br> 
+                <input id="deposit_amount" type="text" placeholder="give amount">
+                <button type="button" class="btn btn-success" id="deposit_btn">Click me</button>
+
+            
+            </div>
+              </div>
+              <div class="col-6 ">
+                <div class="p-3 border down_box_2">
+
+                    <h2>Withdraw</h2> <br> 
+
+                    <input type="text" placeholder="give amount" id="withdraw_input">
+                    <button type="button" class="btn btn-success" id="withdraw_btn">Click me</button>
+
+
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+    </div>
+
+    
+     <script src="new.js"></script>
+    <script src="boostrap_js_file/jquery-3.5.1.slim.min.js"></script>
+    <script src="boostrap_js_file/popper.min.js"></script>
+    <script src="boostrap_js_file/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
